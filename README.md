@@ -50,7 +50,7 @@ The Store Sales Database project is designed to efficiently manage and analyze s
     df.to_csv('store_sales_data_cleaned.csv', index=False)
     ```
 
-- **Connecting SQL**
+- **Establishing connection with SQL**
     ```python
     engine_sql = create_engine('mysql+pymysql://root:Cosmos.90@localhost:3306/store_sales_db')
 
@@ -88,7 +88,7 @@ The Store Sales Database project is designed to efficiently manage and analyze s
 
 -- 12. How many repeat customers do we have, and how much do they contribute to total sales?
 
-    ```SQL
+```SQL
     WITH category_sales AS (
     SELECT year, category_of_goods, ROUND(SUM(sales)) AS total_sales
     FROM store
@@ -99,4 +99,4 @@ The Store Sales Database project is designed to efficiently manage and analyze s
     FROM category_sales
     WHERE year = (SELECT MAX(year) FROM store)
     ORDER BY ranking;
-    ```
+```
