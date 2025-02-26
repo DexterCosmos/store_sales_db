@@ -64,31 +64,11 @@ The Store Sales Database project is designed to efficiently manage and analyze s
 
 - **Business Requirements**
 
--- 1. find total sale by year (2023) and category of goods, rank category_of_goods by low to high performance
-
--- 2. Align states by highest revenue
-
--- 3. Find and compare most sold products by year (2022) & (2023)
-
--- 4. Compare total revenue by year (2019 and 2023) by subtracting the discount state wise
-
--- 5. Find total order count by state and segment
-
--- 6. What is the percentage contribution of each product's sales to its category?
-
--- 7. What is the profit margin for each shipping mode?
-
--- 8. Analyze the impact of discounts on sales and profit by sub-category.
-
--- 9. What is the monthly trend of sales and profit for each state?
-
--- 10. Identify the top 10 most profitable customers and their total number of orders.
-
--- 11. What is the year-over-year sales growth for each region?
-
--- 12. How many repeat customers do we have, and how much do they contribute to total sales?
+Refer Business requirement.txt for requirement and for solutions (store_sales_db.sql)
 
 ```SQL
+ - 1st query
+ 
     WITH category_sales AS (
     SELECT year, category_of_goods, ROUND(SUM(sales)) AS total_sales
     FROM store
