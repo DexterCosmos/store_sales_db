@@ -84,7 +84,7 @@ Refer Business requirement.txt for requirement and for solutions (store_sales_db
 ## Tools Utlized
 
 - Excel
-- Python (Pandas, Numpy, pymysql, sqlalchemy)
+- Python (pandas, numpy, pymysql, sqlalchemy)
 - Jupyter Notebook
 - SQL
 - Power BI
