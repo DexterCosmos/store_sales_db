@@ -1,0 +1,6 @@
+Required Libraries
+
+pandas
+numpy
+pymysql
+sqlalchemy
