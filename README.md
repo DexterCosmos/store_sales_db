@@ -93,5 +93,5 @@ Refer Business requirement.txt for requirement and for solutions (store_sales_db
 ---
 
 <p align="center">
-  <i>This project was solely made by // Nomaan Ansari // </i>
+  <i>This project was solely exicuted by // Nomaan Ansari // </i>
 </p>
