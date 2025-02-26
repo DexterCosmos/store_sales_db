@@ -68,7 +68,7 @@ Refer Business requirement.txt for requirement and for solutions (store_sales_db
 
 ```SQL
  - 1st query
- 
+
     WITH category_sales AS (
     SELECT year, category_of_goods, ROUND(SUM(sales)) AS total_sales
     FROM store
@@ -80,3 +80,18 @@ Refer Business requirement.txt for requirement and for solutions (store_sales_db
     WHERE year = (SELECT MAX(year) FROM store)
     ORDER BY ranking;
 ```
+
+## Tools Utlized
+
+- Excel
+- Python (Pandas, Numpy, pymysql, sqlalchemy)
+- Jupyter Notebook
+- SQL
+- Power BI
+
+
+---
+
+<p align="center">
+  <i>This project was solely made by // Nomaan Ansari // </i>
+</p>
