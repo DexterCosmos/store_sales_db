@@ -64,10 +64,10 @@ The Store Sales Database project is designed to efficiently manage and analyze s
 
 - **Business Requirements**
 
-Refer Business requirement.txt for requirement and for solutions (store_sales_db.sql)
+Refer `Business requirement.txt` for requirement and for solutions `store_sales_db.sql`
 
 ```SQL
- - 1st query
+ • Example
 
     WITH category_sales AS (
     SELECT year, category_of_goods, ROUND(SUM(sales)) AS total_sales
