@@ -86,7 +86,10 @@ The Store Sales Database project is designed to efficiently manage and analyze s
     except:
         print ('not connected')
     ```
-
+    ```python
+    df.to_sql(name='store', con=engine_sql, if_exists='replace', index=False)
+    ```
+    
 ### SQL
 
 - **Business Requirements**
