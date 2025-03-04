@@ -1,6 +1,6 @@
 <div align="center">
-<img src="images/banner.png" alt="Store Sales Image" width="600" height="300">
-<h1 align="center">Store Sales Database</h1>
+<img src="images/banner.png" alt="Store Sales Image" width="1024" height="512">
+<h1>Store Sales Database</h1>
 </div>
 
 ## Summary
