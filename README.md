@@ -98,7 +98,7 @@ The Store Sales Database project is designed to efficiently manage and analyze s
 
 - **Business Requirements**
 
-Refer `Business requirement.txt` for requirement and for solutions `store_sales_db.sql`
+Please refer to the document titled ``Business Requirement.txt`` for detailed business requirements. For the proposed solutions, kindly consult the ``store_sales_db.sql`` file.
 
 ```SQL
  • Example
