@@ -82,7 +82,7 @@ The Store Sales Database project is designed to efficiently manage and analyze s
     host = localhost // port = 3306 // user = root // password = 'your password'
     
     ```python
-    engine_sql = create_engine('mysql+pymysql://root:XYZ@localhost:3306/store_sales_db')
+    engine_sql = create_engine('mysql+pymysql://root:Cosmos.90@localhost:3306/store_sales_db')
 
     try:engine_sql
         print ('connected')
