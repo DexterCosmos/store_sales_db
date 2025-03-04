@@ -127,5 +127,5 @@ Please refer to the document titled ``Business Requirement.txt`` for detailed bu
 ---
 
 <p align="center">
-  <i>This project was solely exicuted by // Nomaan Ansari // </i>
+  <i>This project was solely exicuted by // Nomaan Ansari //</i>
 </p>
