@@ -39,6 +39,33 @@ The Store Sales Database project is designed to efficiently manage and analyze s
     
     df.info()
     ```
+- **Extracting and Adding sales_month from sales_date column**
+    ```python
+    file_path = 'store_sales_data_cleaned.csv'
+    df = pd.read_csv(file_path)
+
+    df['sales_date'] = pd.to_datetime(df['sales_date'])
+
+    df['sales_month'] = df['sales_date'].dt.strftime('%b')
+
+    df.to_csv(file_path, index=False)
+
+    print("Updated CSV file with 'sales_month' column as three-letter abbreviation.")
+    ```
+
+- **Extracting and Adding sales_days from sales_date column**
+    ```python
+    file_path = 'store_sales_data_cleaned.csv'
+    df = pd.read_csv(file_path)
+
+    df['sales_date'] = pd.to_datetime(df['sales_date'])
+
+    df['sales_month'] = df['sales_date'].dt.strftime('%b')
+
+    df.to_csv(file_path, index=False)
+
+    print("Updated CSV file with 'sales_month' column as three-letter abbreviation.")
+    ```
 
 - **Analyzing Duplicate Values**
     ```python
