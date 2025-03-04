@@ -78,6 +78,9 @@ The Store Sales Database project is designed to efficiently manage and analyze s
     ```
 
 - **Establishing connection with SQL**
+
+    host = localhost // port = 3306 // user = root // password = 'your password'
+    
     ```python
     engine_sql = create_engine('mysql+pymysql://root:Cosmos.90@localhost:3306/store_sales_db')
 
@@ -86,10 +89,11 @@ The Store Sales Database project is designed to efficiently manage and analyze s
     except:
         print ('not connected')
     ```
+
     ```python
     df.to_sql(name='store', con=engine_sql, if_exists='replace', index=False)
     ```
-    
+
 ### SQL
 
 - **Business Requirements**
