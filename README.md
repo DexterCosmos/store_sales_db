@@ -1,4 +1,4 @@
-<img src="images/banner.png" alt="Store Sales Image" width="300">
+<img src="images/banner.png" align="center" alt="Store Sales Image" width="300">
 <h1 align="center">Store Sales Database</h1>
 
 ## Summary
