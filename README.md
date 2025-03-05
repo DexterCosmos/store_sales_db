@@ -137,21 +137,19 @@ The Power BI dashboard offers a comprehensive visualization of key business metr
 
 This interactive and dynamic dashboard enables easy analysis and interpretation of business data, facilitating informed decision-making.
 
-<div align="center">
 
-<p> Dashborad 1</p>
+<p> Dashborad 1 </p>
 
-<img src="images/store_sales_visualization-1.png" alt="Dashboard">
+<img src="images/store_sales_visualization-1.png" alt="Dashboard" align="center">
     
 <p> Dashborad 2 </p>
 
-<img src="images/store_sales_visualization-2.png" alt="Dashboard">
+<img src="images/store_sales_visualization-2.png" alt="Dashboard" align="center">
 
 <p> Dashborad 3 </p> 
 
-<img src="images/store_sales_visualization-3.png" alt="Dashboard">
+<img src="images/store_sales_visualization-3.png" alt="Dashboard" align="center">
    
-</div>
 
 
 ## Tools Utlized
