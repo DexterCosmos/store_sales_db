@@ -139,9 +139,9 @@ This interactive and dynamic dashboard enables easy analysis and interpretation 
 
 <div align="center">
     <img src="images/store_sales_visualization-1.png" alt="Dashboard">
- ---
+ <p></p>
     <img src="images/store_sales_visualization-2.png" alt="Dashboard">
- ---
+ <p></p>
     <img src="images/store_sales_visualization-3.png" alt="Dashboard">
 </div>
 
