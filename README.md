@@ -119,7 +119,7 @@ Please refer to the document titled ``Business Requirement.txt`` for detailed bu
 ```
 ### Power BI
 
-- **Data visualization**
+**Data visualization**
 
 The Power BI dashboard offers a comprehensive visualization of key business metrics through the following chart types:
 
