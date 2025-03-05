@@ -1,5 +1,5 @@
 <div align="center">
-<img src="images/banner.png" alt="Store Sales Image" width="1024" height="512">
+<img src="images/banner.png" alt="Store Sales Image">
 <h1>Store Sales Database</h1>
 </div>
 
