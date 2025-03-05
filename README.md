@@ -152,7 +152,7 @@ This interactive and dynamic dashboard enables easy analysis and interpretation 
    
 
 
-## // Tools Utlized //
+## // Tools Utilized //
 
 - Excel
 - Python (pandas, numpy, pymysql, sqlalchemy)
