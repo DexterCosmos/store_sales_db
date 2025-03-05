@@ -137,6 +137,26 @@ The Power BI dashboard offers a comprehensive visualization of key business metr
 
 This interactive and dynamic dashboard enables easy analysis and interpretation of business data, facilitating informed decision-making.
 
+```DAX foumula
+    month_sort = 
+SWITCH(
+    TRUE(),
+    store_sales_data_cleaned[sales_month] = "Jan", 1,
+    store_sales_data_cleaned[sales_month] = "Feb", 2,
+    store_sales_data_cleaned[sales_month] = "Mar", 3,
+    store_sales_data_cleaned[sales_month] = "Apr", 4,
+    store_sales_data_cleaned[sales_month] = "May", 5,
+    store_sales_data_cleaned[sales_month] = "Jun", 6,
+    store_sales_data_cleaned[sales_month] = "Jul", 7,
+    store_sales_data_cleaned[sales_month] = "Aug", 8,
+    store_sales_data_cleaned[sales_month] = "Sep", 9,
+    store_sales_data_cleaned[sales_month] = "Oct", 10,
+    store_sales_data_cleaned[sales_month] = "Nov", 11,
+    store_sales_data_cleaned[sales_month] = "Dec", 12,
+    BLANK()
+)
+```
+
 <div align="center">
     <img src="" alt="Dashboard">
     <img src="" alt="Dashboard">
