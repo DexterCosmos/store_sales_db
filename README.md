@@ -120,13 +120,20 @@ Please refer to the document titled ``Business Requirement.txt`` for detailed bu
 ### Power BI
 
 - **Data visualization**
-The Power BI dashboard provides a comprehensive visualization of key business metrics through the following chart types:
 
-- Bar Chart: Highlights sales performance across various product categories.
-- Pie Chart: Displays the market share distribution among leading competitors.
-- Column Chart: Illustrates monthly revenue trends over the past year.
-- Ribbon Chart: Showcases the progression of market rankings over time.
-- Cards: Present important KPIs such as total revenue, customer satisfaction scores, and net profit margin.
+The Power BI dashboard offers a comprehensive visualization of key business metrics through the following chart types:
+
+- Bar Chart: Highlights sales performance according to product category in each region.
+
+- Line Chart: Illustrates the frequency of sales and profits over time as by month.
+
+- Pie Chart: Displays the segemnt sales distribution across different regions.
+
+- Column Chart: Illustrates category sales distribution across week days.
+
+- Ribbon Chart: Showcases the progression of shipping mode accros the years.
+
+- Cards: Present important KPIs such as total revenue, total customer, and net profit margin etc.
 
 This interactive and dynamic dashboard enables easy analysis and interpretation of business data, facilitating informed decision-making.
 
