@@ -155,9 +155,15 @@ This interactive and dynamic dashboard enables easy analysis and interpretation 
 ## // Tools Utilized //
 
 - Excel
-- Python (pandas, numpy, pymysql, sqlalchemy)
+
+- Python
+
+- librariries: pandas, numpy, pymysql, sqlalchemy, datetime
+
 - Jupyter Notebook
+
 - SQL
+
 - Power BI
 
 
