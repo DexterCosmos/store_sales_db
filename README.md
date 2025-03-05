@@ -5,13 +5,14 @@
 
 ## // Summary //
 
-The Store Sales Database project is designed to efficiently manage and analyze sales and grwoth of the store. This comprehensive database aids in tracking sales performance, generating detailed reports, and facilitating data-driven business decisions. Key features include data import, data export, real-time analytics, and customizable reporting options. The dataset comprises 100,000 rows of consumer data, including fields such as `customer ID, customer name, last name, and date of birth`. It also encompasses sales `year, outlet type, city type, category of goods, region, and country`. Additional details comprise segment `sales date, order ID, order date, ship date, ship mode, state, postal code, product ID, subcategory, product name, quantity, discount, profit, sales month, and sales day`. The tools utilized to complete this project include SQL for database management, Python for data processing and analysis, and Power BI for data visualization and reporting.
+The Store Sales Database project is designed to efficiently manage and analyze sales and growth of the store. This comprehensive database aids in tracking sales performance, generating detailed reports, and facilitating data-driven business decisions. Key features include data import, data export, real-time analytics, and customizable reporting options. The dataset comprises `100K entries` of consumer data, including fields such as `customer ID, customer name, last name, and date of birth`. It also encompasses sales `year, outlet type, city type, category of goods, region, and country`. Additional details comprise segment `sales date, order ID, order date, ship date, ship mode, state, postal code, product ID, subcategory, product name, quantity, discount, profit, sales month, and sales day`. The tools utilized to complete this project include SQL for database management, Python for data processing and analysis, and Power BI for data visualization and reporting.
 
 ## // Workflow //
 
 ### Python
 
 - **Importing Required Libraries**
+
     ```python
     import pandas as pd
     import numpy as np
@@ -22,17 +23,20 @@ The Store Sales Database project is designed to efficiently manage and analyze s
     ```
 
 - **Retrieving Database Information**
+
     ```python
     df.info()
     df.head()
     ```
 
 - **Analyzing Missing and Null Values**
+
     ```python
     df.isnull().sum()
     ```
 
 - **Standardizing Data**
+
     ```python
     df.columns = df.columns.str.lower()
     df.columns = df.columns.str.replace(' ', '_')
@@ -43,6 +47,7 @@ The Store Sales Database project is designed to efficiently manage and analyze s
     df.info()
     ```
 - **Extracting and Adding sales_month from sales_date column**
+
     ```python
     file_path = 'store_sales_data_cleaned.csv'
     df = pd.read_csv(file_path)
@@ -57,6 +62,7 @@ The Store Sales Database project is designed to efficiently manage and analyze s
     ```
 
 - **Extracting and Adding sales_days from sales_date column**
+
     ```python
     file_path = 'store_sales_data_cleaned.csv'
     df = pd.read_csv(file_path)
@@ -71,11 +77,13 @@ The Store Sales Database project is designed to efficiently manage and analyze s
     ```
 
 - **Analyzing Duplicate Values**
+
     ```python
     df.duplicated().sum()
     ```
 
 - **Exporting the Data as CSV**
+
     ```python
     df.to_csv('store_sales_data_cleaned.csv', index=False)
     ```
