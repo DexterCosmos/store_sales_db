@@ -158,7 +158,7 @@ This interactive and dynamic dashboard enables easy analysis and interpretation 
 
 - Python
 
-- librariries: pandas, numpy, pymysql, sqlalchemy, datetime
+- librariries: (pandas, numpy, pymysql, sqlalchemy)
 
 - Jupyter Notebook
 
