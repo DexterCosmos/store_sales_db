@@ -139,13 +139,15 @@ This interactive and dynamic dashboard enables easy analysis and interpretation 
 
 <div align="center">
 
+<p> Dashborad 1</p>
+
 <img src="images/store_sales_visualization-1.png" alt="Dashboard">
     
-<p></p>
+<p> Dashborad 2 </p>
 
 <img src="images/store_sales_visualization-2.png" alt="Dashboard">
 
-<p></p> 
+<p> Dashborad 3 </p> 
 
 <img src="images/store_sales_visualization-3.png" alt="Dashboard">
    
