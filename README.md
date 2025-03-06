@@ -153,8 +153,9 @@ This interactive and dynamic dashboard enables easy analysis and interpretation 
     
 #### Dashborad 2
 
+```
 <img src="images/store_sales_visualization-2.png" alt="Dashboard" align="center">
-
+```
 #### Dashborad 3 
 
 <img src="images/store_sales_visualization-3.png" alt="Dashboard" align="center">
