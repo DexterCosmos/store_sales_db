@@ -110,7 +110,7 @@ The Store Sales Database project is designed to efficiently manage and analyze s
 
 - **Queries**
 
-    More query please refer to the document titled ``Business Requirement.txt`` for detailed business requirements. For the proposed solutions, kindly consult the ``store_sales_db.sql`` file.
+    More query please refer to the document titled ``business_requirement.txt`` for detailed business requirements. For the proposed solutions, kindly consult the ``store_sales_db.sql`` file.
  
  - Example Query:
 
